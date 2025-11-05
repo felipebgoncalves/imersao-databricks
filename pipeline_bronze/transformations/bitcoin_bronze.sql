@@ -1,4 +1,4 @@
-CREATE OR REFRESH STREAMING LIVE TABLE bitcoin
+CREATE OR REFRESH STREAMING LIVE TABLE quotation_btc
 TBLPROPERTIES (
   "quality" = "bronze",
   "delta.columnMapping.mode" = "name"

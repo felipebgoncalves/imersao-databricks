@@ -1,4 +1,4 @@
-CREATE OR REFRESH STREAMING LIVE TABLE yfinance
+CREATE OR REFRESH STREAMING LIVE TABLE quotation_yfinance
 TBLPROPERTIES (
   "quality" = "bronze",
   "delta.columnMapping.mode" = "name"
