@@ -1,6 +1,5 @@
 CREATE OR REFRESH STREAMING LIVE TABLE quotation_btc
-TBLPROPERTIES (
-  "quality" = "bronze")  -- metadado opcional para indicar a camada
+TBLPROPERTIES ("quality" = "bronze")  -- metadado opcional para indicar a camada
 AS
 -- Lê os arquivos JSON da pasta RAW usando cloud_files (Auto Loader)
 SELECT *
